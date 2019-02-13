@@ -11,7 +11,7 @@ public class EvaluationCollection {
 
     public String insertOne(String str) {
         System.out.println("mounting URI...");
-        MongoClientURI uri = new MongoClientURI("mongodb://viavarejocosmosdb:N5o5Yes6WbCdgdRvD6biijCvFDiX6QaPs1kw035hcXebpkJUtMVrSAWTgSravn3SKPrBAOvZcQjOEStFNQ87Lw==@viavarejocosmosdb.documents.azure.com:10255/?ssl=true&replicaSet=globaldb");
+        MongoClientURI uri = new MongoClientURI("mongodb://IP_HOST:PORT");
 
         MongoClient mongoClient = null;
         try {
